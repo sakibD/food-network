@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    display: flex;
+}
+.text-color{
+    color: orange;
+}
+.header-section h2{
+font-size: 50px;
+
+}
+.header-section{
+    width: 50%;
+    padding-left: 5%;
+}
+.header-section p{
+    margin-bottom: 50px;
+    color:gray;
+}
+.link-color{
+    padding: 15px 30px;
+    text-decoration: none;
+    background:linear-gradient(to right ,orange 2%,red);
+    border-radius: 50px;
+    color: white;
+    }
+    .header-section img{
+        width: 600px;
+        height: 600px;
+    }
+    .about{
+        display: flex;
+        background-image: url(images/about-bg.png);
+
+    }
+    .about-part img{
+        width: 400px;
+        height: 500px;
+       margin-left: 10%;
+       margin-top: 50px;
+        
+    }
+    .about-part{
+        width: 50%;
+        min-height: 80vh;
+        
+    }
+    .about-part h3{
+        font-size: 30px;
+        margin-top: 20%;
+    color: gray;
+
+    }
+    .about-part p{
+        margin-right: 20%;
+        text-align:left;
+        padding-bottom: 10%;
+        line-height: 30px;
+    }
+    .rcipies-section{
+        width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+    .rcipies-section h3{
+        margin-top: 100px;
+    color:rgb(128, 124, 124);
+    font-size: 30px;
+
+    }
+    .recipies-content{
+        display:flex;
+       padding-left: 3%;
+       padding-right: 3%;
+    margin-bottom: 50px;
+    }
+    .recipies-card{
+        width: 35%;
+        height: 10%;
+        padding: 20px;
+      float: left;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 1px 1px 40px rgb(228, 224, 217);
+        margin: 20px;
+    }
+    .recipies-card img{
+        width: 100%;
+        height: 60%;
+        border-radius: 30px;
+    }
+
+footer{
+    margin-top: 60px;
+    background: black;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding: 13px;
+}
+footer h3 span{
+color: orangered;
+}
+footer h3{
+    color: #5b5b5b;
+    font-size: 30px;
+}
+footer p{
+    color: gray;
+    letter-spacing: 1px;
+}
